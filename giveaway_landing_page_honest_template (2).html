@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Win a $100 Gift Card — Enter Now</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f7fafc; --card:#ffffff; --muted:#6b7280;
+      --accent:#1f7aec; --accent-2:#ff7a00; --success:#10b981;
+      --radius:14px; --container:980px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:linear-gradient(180deg,#fbfdff 0%,var(--bg) 100%);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;color:#071129;-webkit-font-smoothing:antialiased}
+
+    .page{max-width:var(--container);margin:28px auto;padding:20px}
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:0 10px 30px rgba(16,24,40,0.08);overflow:hidden}
+
+    /* Header */
+    .header{display:flex;align-items:center;gap:18px;padding:22px;border-bottom:1px solid #f1f5f9}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#4aa0ff);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-family:Poppins}
+    .brand h4{margin:0;font-size:16px}
+    .brand p{margin:0;color:var(--muted);font-size:13px}
+
+    /* Main */
+    .main{display:flex;flex-direction:column;padding:28px;gap:18px}
+    @media(min-width:880px){.main{flex-direction:row;align-items:center}}
+
+    .left{flex:1}
+    h1{font-family:Poppins,Inter;font-size:26px;margin:0 0 8px;line-height:1.05}
+    .sub{color:var(--muted);margin:0 0 16px}
+
+    .features{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:#f3f8ff;border:1px solid rgba(31,122,236,0.08);font-size:13px;color:var(--accent)}
+
+    /* CTA card */
+    .cta-card{width:100%;max-width:420px;background:linear-gradient(180deg,#ffffff, #fbfdff);border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(16,24,40,0.04)}
+    .gift-art{display:flex;gap:14px;align-items:center}
+    .gift-img{width:88px;height:56px;border-radius:8px;background:linear-gradient(90deg,var(--accent-2),#ffb36b);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px}
+
+    .countdown{margin-top:10px;font-weight:700;font-size:18px;color:#ef4444}
+    .form{margin-top:12px}
+    .input{display:flex;gap:8px}
+    input[type="email"]{flex:1;padding:12px;border-radius:10px;border:1px solid #e6edf6;font-size:15px}
+    button.btn{background:var(--accent);color:white;padding:12px 16px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    button.secondary{background:transparent;border:1px solid rgba(7,17,41,0.06);color:var(--muted);padding:10px;border-radius:10px}
+
+    /* Testimonials */
+    .testimonials{display:grid;grid-template-columns:1fr;gap:12px;padding:22px;border-top:1px solid #f1f5f9}
+    @media(min-width:720px){.testimonials{grid-template-columns:1fr 1fr}}
+    .testi{display:flex;gap:12px;align-items:flex-start;background:#f8fbff;padding:12px;border-radius:10px}
+    .avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#e6f0ff,#fff4eb);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent-2)}
+    .testi h5{margin:0;font-size:14px}
+    .testi p{margin:4px 0 0;color:var(--muted);font-size:13px}
+
+    /* Footer */
+    .foot{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;border-top:1px solid #f1f5f9;color:var(--muted);font-size:13px}
+
+    /* small notes */
+    .note{font-size:13px;color:var(--muted);margin-top:10px}
+
+    /* small helpers */
+    .secure{display:inline-flex;gap:8px;align-items:center;color:var(--muted);font-size:13px}
+
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="card" role="main">
+      <header class="header">
+        <div class="brand">
+          <div class="logo">WIN</div>
+          <div>
+            <h4>Official Giveaway</h4>
+            <p>Fast • Secure • Mobile-friendly</p>
+          </div>
+        </div>
+        <div style="margin-left:auto;display:flex;gap:12px;align-items:center">
+          <div class="secure">🔒 Secure form</div>
+        </div>
+      </header>
+
+      <section class="main">
+        <div class="left">
+          <h1><strong>Congratulations — you're eligible to win a $100 gift card</strong></h1>
+          <p class="sub">Complete a very short quiz and enter your email to claim. Winners will be selected and notified by email. Terms and privacy included below.</p>
+
+          <div class="features">
+            <span class="badge">⏱️ Limited time</span>
+            <span class="badge">📨 Instant notification</span>
+            <span class="badge">✅ Secure</span>
+          </div>
+
+          <div style="margin-top:14px">
+            <strong>How it works</strong>
+            <ol style="margin:8px 0 0 18px;color:var(--muted)">
+              <li>Start the short quiz (30–60 seconds)</li>
+              <li>Submit your email to enter</li>
+              <li>Winners notified by email; prizes distributed within 14 days</li>
+            </ol>
+            <p class="note">No purchase required. This promotion is not affiliated with Amazon.</p>
+          </div>
+        </div>
+
+        <aside aria-label="Claim box" class="cta-card">
+          <div class="gift-art">
+            <div class="gift-img">$100</div>
+            <div>
+              <div style="font-size:14px;color:var(--muted)">Instant Entry</div>
+              <div style="font-weight:700;font-size:18px">Claim your $100 gift card</div>
+            </div>
+          </div>
+
+          <div class="countdown" id="countdown">Time left: <span id="timer">--:--:--</span></div>
+
+          <form id="leadForm" class="form" onsubmit="handleSubmit(event)" netlify>
+            <div class="input">
+              <input type="email" id="email" name="email" placeholder="Your email address" required aria-label="Email address">
+              <button class="btn" type="submit">Claim Your Gift</button>
+            </div>
+            <div style="display:flex;gap:8px;margin-top:10px">
+              <button type="button" class="secondary" onclick="startQuiz()">Start Quiz</button>
+              <div style="flex:1;text-align:right;color:var(--muted);font-size:13px">By entering you agree to the <a href="#terms">terms</a>.</div>
+            </div>
+          </form>
+
+          <div class="note">We respect your privacy — emails used only for giveaway communication.</div>
+        </aside>
+      </section>
+
+      <section class="testimonials" aria-label="Testimonials">
+        <div class="testi">
+          <div class="avatar">A</div>
+          <div>
+            <h5>Amine — Casablanca</h5>
+            <p>"Quick and easy — received the confirmation in minutes. Highly recommend."</p>
+          </div>
+        </div>
+
+        <div class="testi">
+          <div class="avatar">S</div>
+          <div>
+            <h5>Sara — Rabat</h5>
+            <p>"Lovely design and straight to the point. Claimed in two steps."</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <div>© <span id="year"></span> Giveaway</div>
+        <div>
+          <a href="#privacy" style="color:var(--muted);text-decoration:none;margin-right:12px">Privacy</a>
+          <a href="#terms" style="color:var(--muted);text-decoration:none">Terms</a>
+        </div>
+      </footer>
+
+      <div style="padding:14px 22px;color:var(--muted);font-size:13px;border-top:1px solid #f1f5f9">Note: This page is a demo template. Replace testimonials with real feedback and add a full terms & conditions document if you collect personal data.</div>
+    </div>
+  </div>
+
+  <script>
+    // Set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Countdown to 48 hours from first visit (persist in localStorage)
+    (function(){
+      const KEY = 'giveaway_deadline_v2';
+      let deadline = localStorage.getItem(KEY);
+      if(!deadline){ deadline = new Date(Date.now() + 48*3600*1000).toISOString(); localStorage.setItem(KEY, deadline); }
+      deadline = new Date(deadline);
+
+      function update(){
+        const now = new Date();
+        let diff = Math.max(0, deadline - now);
+        const days = Math.floor(diff / (24*3600*1000)); diff %= (24*3600*1000);
+        const h = String(Math.floor(diff/3600000)).padStart(2,'0'); diff%=3600000;
+        const m = String(Math.floor(diff/60000)).padStart(2,'0'); diff%=60000;
+        const s = String(Math.floor(diff/1000)).padStart(2,'0');
+        const out = (days>0? days + 'd ':'') + h + ':' + m + ':' + s;
+        document.getElementById('timer').textContent = out;
+      }
+      update(); setInterval(update,1000);
+    })();
+
+    function startQuiz(){
+      // Replace this with your quiz flow or link
+      window.location.href = '#quiz';
+    }
+
+    function handleSubmit(e){
+      e.preventDefault();
+      const email = document.getElementById('email').value;
+      // Basic validation
+      if(!email || !email.includes('@')){ alert('Please enter a valid email.'); return; }
+
+      // If using Netlify Forms, the form will submit normally. For demo, we simulate success.
+      // Show a friendly success state
+      const btn = e.target.querySelector('.btn');
+      btn.disabled = true; btn.textContent = 'Submitting...';
+
+      setTimeout(()=>{
+        btn.textContent = 'Claim Your Gift'; btn.disabled = false;
+        alert('Thanks! Your email has been received. We will notify winners by email.');
+        e.target.reset();
+      }, 900);
+    }
+  </script>
+</body>
+</html>
